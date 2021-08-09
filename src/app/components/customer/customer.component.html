@@ -1,0 +1,18 @@
+<table class="table">
+    <thead class="table-dark">
+      <tr>
+        <th scope="col">Customers</th>
+        
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of customer">
+        
+        <td>{{item.userId}}</td>
+        <td>{{item.companyName}}</td>
+        <td>{{item.customerId}}</td>
+        
+      </tr>
+      
+    </tbody>
+  </table>

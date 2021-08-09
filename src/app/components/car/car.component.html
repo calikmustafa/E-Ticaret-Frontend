@@ -1,0 +1,29 @@
+<table class="table">
+    <thead class="table-dark">
+      <tr>
+        
+        <th scope="col">Car Id </th>
+        <th scope="col">Brand Name </th>
+        <th scope="col">Color Name </th>
+        <th scope="col">Model Year </th>
+        <th scope="col">DailyPrice </th>
+        <th scope="col">Description  </th>
+        <th scope="col">Car Name </th>
+        
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of cardetail">
+        
+        <td>{{item.carId}}</td>
+        <td>{{item.brandName}}</td>
+        <td>{{item.colorName}}</td>
+        <td>{{item.modelYear}}</td>
+        <td>{{item.dailyPrice}}</td>
+        <td>{{item.description}}</td>
+        <td>{{item.carName}}</td>
+        
+      </tr>
+      
+    </tbody>
+  </table>

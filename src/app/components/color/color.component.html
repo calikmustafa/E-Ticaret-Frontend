@@ -1,0 +1,8 @@
+<div *ngIf="dataLoaded==false" class="spinner-border text-danger" role="status">
+    <span class="visually-hidden">Loading...</span>
+  </div>
+  <ul class="list-group">
+    <li  class="list-group-item active" aria-current="true">Colors</li>
+    <li *ngFor="let item of colors" class="list-group-item">{{item.colorName}}</li>
+    
+  </ul>
